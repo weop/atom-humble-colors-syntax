@@ -1,7 +1,7 @@
 {
   "name": "humble-colors-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A minimalistic syntax theme for Atom.",
   "keywords": [
     "syntax",
