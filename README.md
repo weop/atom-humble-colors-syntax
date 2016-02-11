@@ -1,5 +1,5 @@
 # humble-colors
-a syntax theme for atom, with a minimal and clean theme look.
+a syntax theme for atom, with a minimal and clean look.
 
 note: looks better with One Dark UI theme that comes with Atom.
 
