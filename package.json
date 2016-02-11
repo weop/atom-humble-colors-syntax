@@ -1,0 +1,19 @@
+{
+  "name": "humble-colors-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "A minimalistic syntax theme for Atom.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "atom-dark",
+    "dark",
+    "colourful",
+    "humble"
+  ],
+  "repository": "https://github.com/weop/atom-humble-colors-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

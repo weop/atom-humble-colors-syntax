@@ -1,0 +1,62 @@
+.js,
+.jsx {
+
+  .meta.class {
+    color: @light-gray;
+  }
+
+
+  .punctuation.definition.arguments.begin.js,
+  .punctuation.definition.arguments.end.js{
+    color: white ;
+  }
+
+
+  .keyword.control {
+    color: @altblue;
+    &.flow {
+      color: @orange;
+    }
+  }
+
+  .object {
+
+    .string.unquoted {
+      color: lighten(@green, 10%);
+    }
+
+  }
+
+  .storage {
+    color: @purple;
+  }
+
+  .variable {
+    color: @red;
+
+    &.readwrite {
+      color: white;
+    }
+
+    &.this {
+      color: @orange;
+    }
+  }
+
+  .entity.name.class,
+  .entity.name.type.class,
+  .variable.class {
+    color: @orange;
+    font-style: bold;
+  }
+
+  .jsx {
+
+    .punctuation.embedded.begin.jsx,
+    .punctuation.embedded.end.jsx {
+      color: white;
+    }
+
+  }
+
+}

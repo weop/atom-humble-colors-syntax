@@ -1,0 +1,56 @@
+.php {
+
+  .meta{
+    &.class {
+      color: @light-gray;
+    }
+  }
+
+  .meta.function-call.object.php,
+  .meta.function-call.static.php{
+    color:@orange;
+  }
+
+  .punctuation.section.scope{
+    &.begin{
+      color:white;
+    }
+    &.end{
+      color:white;
+    }
+  }
+
+  .keyword.control {
+    color: @altblue;
+    &.flow {
+      color: @orange;
+    }
+  }
+
+  .object {
+
+    .string.unquoted {
+      color: lighten(@green, 10%);
+    }
+
+  }
+
+  .storage {
+    color: @purple;
+  }
+
+  .variable {
+    color: @red;
+  }
+
+  .entity.name.class,
+  .entity.name.type.class,
+  .variable.class {
+    color: @orange;
+    font-style: bold;
+  }
+
+  .entity.name.function {
+    color: @orange;
+  }
+}
