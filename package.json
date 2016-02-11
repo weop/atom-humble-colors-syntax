@@ -6,10 +6,11 @@
   "keywords": [
     "syntax",
     "theme",
-    "atom-dark",
-    "dark",
     "colourful",
-    "humble"
+    "dark",
+    "humble",
+    "php",
+    "javascript"
   ],
   "repository": "https://github.com/weop/atom-humble-colors-syntax",
   "license": "MIT",
