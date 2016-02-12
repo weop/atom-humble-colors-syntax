@@ -1,4 +1,4 @@
-.php{
+.python{
 
   &.meta {
     &.class {
@@ -39,9 +39,6 @@
     }
     &.other{
       color:white;
-      &.inherited-class{
-        color:white;
-      }
     }
   }
 
@@ -62,30 +59,19 @@
     color:white;
   }
 
-  &.numeric{
-    color: white;
-  }
-
   &.punctuation{
-    &.section{
-      &.scope{
-        &.begin,
-        &.end{
-          color:white
-        }
-      }
-    }
-    &.embedded{
-      &.begin,
-      &.end{
-        color:white
-      }
-    }
     &.arguments{
       color:white;
     }
     &.definition{
       &.arguments{
+        color:@magenta;
+        &.begin,
+        &.end{
+          color:white;
+        }
+      }
+      &.inheritance{
         color:@magenta;
         &.begin,
         &.end{

@@ -1,53 +1,79 @@
 .js,
 .jsx {
 
-  .meta.class {
-    color: @light-gray;
+  &.meta {
+    &.function-call{
+      color: @orange;
+      &.arguments{
+        color: @magenta;
+        &.begin,
+        &.end{
+          color:white;
+        }
+      }
+    }
   }
 
-
-  .punctuation.definition.arguments.begin.js,
-  .punctuation.definition.arguments.end.js{
-    color: white ;
+  &.storage {
+    color: @purple;
   }
 
+  &.variable {
+    color: @red;
+  }
 
-  .keyword.control {
+  &.entity{
+    &.name{
+      color: @orange;
+    }
+    &.function{
+       color: @orange;
+    }
+    &.other{
+      color:white;
+    }
+  }
+
+  &.object {
+    .string.unquoted {
+      color: lighten(@green, 10%);
+    }
+  }
+
+  &.keyword.control {
     color: @altblue;
     &.flow {
       color: @orange;
     }
   }
 
-  .object {
-
-    .string.unquoted {
-      color: lighten(@green, 10%);
-    }
-
+  &.decimal{
+    color:white;
   }
 
-  .storage {
-    color: @purple;
+  &.numeric{
+    color: white;
   }
 
-  .variable {
-    color: @red;
-
-    &.readwrite {
-      color: white;
+  &.punctuation{
+    &.embedded{
+      &.begin,
+      &.end{
+        color:white
+      }
     }
-
-    &.this {
-      color: @orange;
+    &.arguments{
+      color:white;
     }
-  }
-
-  .entity.name.class,
-  .entity.name.type.class,
-  .variable.class {
-    color: @orange;
-    font-style: bold;
+    &.definition{
+      &.arguments{
+        color:@magenta;
+        &.begin,
+        &.end{
+          color:white;
+        }
+      }
+    }
   }
 
   .jsx {
